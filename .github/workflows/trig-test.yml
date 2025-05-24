@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
 
       - name: 24f1002863@ds.study.iitm.ac.in
-        run: echo "Hello, world! This is Hrishita's CI/CD test."
+        run: echo "Hello, world!"
